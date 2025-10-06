@@ -1,0 +1,21 @@
+- name: multiple play 1
+  hosts: frontend
+  tasks:
+  - name: paly 1 and task 1
+    ansible.builtin.debug:
+      msg: "paly 1 and task 1"
+
+  - name: paly 1 and task 2
+    ansible.builtin.debug:
+      msg: "paly 1 and task 2"
+
+- name: multiple play 2
+  hosts: frontend
+  tasks:
+  - name: paly 2 and task 1
+    ansible.builtin.debug:
+      msg: "paly 1 and task 1"
+
+  - name: paly 2 and task 2
+    ansible.builtin.debug:
+      msg: "paly 1 and task 2"
