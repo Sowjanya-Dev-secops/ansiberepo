@@ -1,0 +1,33 @@
+- name: "vardhan"
+  dob: "01-01-01"
+  age: 21
+  address:
+  - doorno: 4-32
+    city: hyd
+    type: current
+  
+  - doorno: 4-32
+    city: beng
+    type: perm
+  
+  skills:
+  - java
+  - devops
+  - aws
+
+- name: "sowji"
+  dob: "01-01-01"
+  age: 21
+  address:
+  - doorno: 4-32
+    city: hyd
+    type: current
+  
+  - doorno: 4-32
+    city: beng
+    type: perm
+  
+  skills:
+  - java
+  - devops
+  - aws
