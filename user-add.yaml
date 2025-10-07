@@ -1,6 +1,7 @@
 - name: creating the user
   hosts: local
   connection: local
+  becomes: yes
   tasks:
   - name: user add
     ansible.builtin.command: id roboshop
