@@ -2,7 +2,7 @@
   hosts: local
   connection: local
   tasks:
-  - name : user add
+  - name: user add
     ansible.builtin.command: id roboshop
     register: user_output
     ignore_error: true
