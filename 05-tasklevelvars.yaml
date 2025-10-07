@@ -1,6 +1,6 @@
 - name: task level variables
   hosts: local
-  coneection: local
+  connection: local
   vars:
    course: aws
    duration: 10
