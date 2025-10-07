@@ -7,7 +7,7 @@
    trainer: siva
   tasks:
   - name: print the course details
-    ansible.builtin.debug:
     vars:
-     course: devops with cloude
-     msg: "the course name is {{ course }}, duration is : {{ duration }}"
+      course: devops with cloude
+    ansible.builtin.debug:
+      msg: "the course name is {{ course }}, duration is : {{ duration }}"
